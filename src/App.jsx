@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import './App.css'
 import text from "./assets/docs.json"
 
@@ -23,6 +23,3 @@ function App() {
 }
 
 export default App
-
-//onClick={changeLanguage("cat")}
-//          
