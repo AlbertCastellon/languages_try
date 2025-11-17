@@ -1,11 +1,14 @@
 {
     "en": {
-        "greeting": "Hello"
+        "greeting": "Hello",
+        "body": "Welcome to the hotel California"
     },
     "cat": {
-        "greeting": "Hola"
+        "greeting": "Hola",
+        "body": "Bona nit"
     },
     "es": {
-        "greeting": "Saludos"
+        "greeting": "Saludos",
+        "body": "Canción del Pirata"
     }
 }
