@@ -1,35 +1,28 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { useState, useEffect } from 'react'
 import './App.css'
+import text from "./assets/docs.json"
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  const [language, setLanguage] = useState("en");
+  const changeLanguage = (event) => {
+    setLanguage(event.target.value);
+  }
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <header>
+        <label htmlFor="language">Select a Language:</label>
+        <select name="language" id="language" value={language} onChange={changeLanguage}>
+          <option value="cat">Catalan</option>
+          <option value="es">Spanish</option>
+          <option value="en">English</option>
+        </select>
+      </header>
+      <h1>{text[language].greeting}</h1>
     </>
   )
 }
 
 export default App
+
+//onClick={changeLanguage("cat")}
+//          
