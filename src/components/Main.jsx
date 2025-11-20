@@ -6,7 +6,15 @@ function Main() {
     return (
         <>
             <h1>{text[language].greeting}</h1>
-            <h2>{text[language].body}</h2>
+            {text[language].body.map(element => {
+                return(
+                <>
+                    <h3>{element.title}</h3>
+                    <h4>{element.author}</h4>
+                    <h4>{element.year}</h4>
+                </>
+                )
+            })}
         </>
     )
 }

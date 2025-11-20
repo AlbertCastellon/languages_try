@@ -1,14 +1,62 @@
 {
     "en": {
-        "greeting": "Hello",
-        "body": "Welcome to the hotel California"
+        "greeting": "Songs",
+        "body": [
+            {
+                "title": "Welcome to the hotel California",
+                "author": "The Eagles",
+                "year": 1995
+            },
+            {
+                "title": "Welcome to the Black Parade",
+                "author": "My Chemical Romance",
+                "year": 1995
+            },
+            {
+                "title": "How to Save a Life",
+                "author": "Fade",
+                "year": 1995
+            }
+        ]
     },
     "cat": {
-        "greeting": "Hola",
-        "body": "Bona nit"
+        "greeting": "Cançons",
+        "body": [
+            {
+                "title": "Les Nits del Liceu",
+                "author": "Lax 'n Busto",
+                "year": 1995
+            },
+            {
+                "title": "Un secret que t'havia de dir",
+                "author": "Brams",
+                "year": 1995
+            },
+            {
+                "title": "L'Hospital del Mar",
+                "author": "Els Pets",
+                "year": 1995
+            }
+        ]
     },
     "es": {
-        "greeting": "Saludos",
-        "body": "Canción del Pirata"
+        "greeting": "Canciones",
+        "body": [
+            {
+                "title": "La canción del Pirata",
+                "author": "Tierra Santa",
+                "year": 1995
+            },
+            {
+                "title": "Cadillac Solitario",
+                "author": "Loquillo",
+                "year": 1995
+            },
+            {
+                "title": "Princesas",
+                "author": "Pereza",
+                "year": 1995
+            }
+        ]
     }
 }
