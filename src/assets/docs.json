@@ -58,5 +58,45 @@
                 "year": 1995
             }
         ]
+    },
+    "fr": {
+        "greeting": "Chansons",
+        "body": [
+            {
+                "title": "La nuit je mens",
+                "author": "Alain Bashung",
+                "year": 1995
+            },
+            {
+                "title": "Je t'emmène au vent",
+                "author": "Louise Attaque",
+                "year": 1995
+            },
+            {
+                "title": "L’envie d’aimer",
+                "author": "Daniel Lévi",
+                "year": 1995
+            }
+        ]
+    },
+    "it": {
+        "greeting": "Canzoni",
+        "body": [
+            {
+                "title": "Sally",
+                "author": "Vasco Rossi",
+                "year": 1995
+            },
+            {
+                "title": "L'inglese",
+                "author": "Tiziano Ferro",
+                "year": 1995
+            },
+            {
+                "title": "La cura",
+                "author": "Franco Battiato",
+                           "year": 1995
+            }
+        ]
     }
 }

@@ -14,6 +14,8 @@ function Header() {
           <option value="cat">Catalan</option>
           <option value="es">Spanish</option>
           <option value="en">English</option>
+          <option value="fr">French</option>
+          <option value="it">Italiano</option>
         </select>
       </header>
     )
